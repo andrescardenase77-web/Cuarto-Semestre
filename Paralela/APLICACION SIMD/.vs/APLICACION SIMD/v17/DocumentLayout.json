@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Estructura de Datos\\APLICACION SIMD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DBB07D4-D4F7-4A58-AFDD-A64C90DBABE5}|APLICACION SIMD\\APLICACION SIMD.vcxproj|C:\\Users\\HP\\Desktop\\Estructura de Datos\\APLICACION SIMD\\APLICACION SIMD\\APLICACION SIMD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DBB07D4-D4F7-4A58-AFDD-A64C90DBABE5}|APLICACION SIMD\\APLICACION SIMD.vcxproj|solutionrelative:APLICACION SIMD\\APLICACION SIMD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "APLICACION SIMD.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Estructura de Datos\\APLICACION SIMD\\APLICACION SIMD\\APLICACION SIMD.cpp",
+              "RelativeDocumentMoniker": "APLICACION SIMD\\APLICACION SIMD.cpp",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Estructura de Datos\\APLICACION SIMD\\APLICACION SIMD\\APLICACION SIMD.cpp",
+              "RelativeToolTip": "APLICACION SIMD\\APLICACION SIMD.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-23T12:51:25.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

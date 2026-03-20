@@ -1,0 +1,15 @@
+# Arduino específicos
+**/build/
+*.hex
+
+# Java / Maven
+**/target/
+
+# CodeBlocks
+*.layout
+*.depend
+obj/
+bin/
+
+# Jupyter Notebooks (opcional: ignora los checkpoints)
+.ipynb_checkpoints/

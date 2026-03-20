@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Proyectos VS\\Lab1_U1_Cardenas_Andres_Computacion_Paralela\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13950DFA-D673-449F-A6E2-1EAAEB7F18B5}|Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.vcxproj|C:\\Users\\HP\\Desktop\\Proyectos VS\\Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13950DFA-D673-449F-A6E2-1EAAEB7F18B5}|Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.vcxproj|solutionrelative:Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab1_U1_Cardenas_Andres_Computacion_Paralela.cpp",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyectos VS\\Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.cpp",
+              "RelativeDocumentMoniker": "Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.cpp",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyectos VS\\Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.cpp",
+              "RelativeToolTip": "Lab1_U1_Cardenas_Andres_Computacion_Paralela\\Lab1_U1_Cardenas_Andres_Computacion_Paralela.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-26T22:55:14.332Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿  codigo david mimd.cpp
+C:\Users\HP\Desktop\Proyectos VS\codigo david mimd\codigo david mimd\codigo david mimd.cpp(22,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\HP\Desktop\Proyectos VS\codigo david mimd\codigo david mimd\codigo david mimd.cpp(23,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\HP\Desktop\Proyectos VS\codigo david mimd\codigo david mimd\codigo david mimd.cpp(24,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\HP\Desktop\Proyectos VS\codigo david mimd\codigo david mimd\codigo david mimd.cpp(25,32): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  codigo david mimd.vcxproj -> C:\Users\HP\Desktop\Proyectos VS\codigo david mimd\x64\Debug\codigo david mimd.exe

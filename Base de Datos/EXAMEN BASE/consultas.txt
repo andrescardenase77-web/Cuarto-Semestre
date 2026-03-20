@@ -1,0 +1,44 @@
+SELECT cod_producto, descripcion_producto FROM producto
+WHERE cod_producto = 50;
+
+
+SELECT cl1.primer_apellido_cliente AS "Apellido Cl1", cl1.primer_nombre_cliente AS "Nombre Cl1", cl2.primer_apellido_cliente AS "Apellido Cl2", cl2.primer_nombre_cliente AS "Apellido Cl2" 
+FROM (cliente cl1
+INNER JOIN factura fact ON cl1.num_cliente = fact.num_cliente
+INNER JOIN venta v ON fact.num_factura = v.num_factura
+INNER JOIN producto pro ON pro.cod_producto = v.cod_producto)
+INNER JOIN cliente cl2 ON cl1.num_cliente != cl2.num_cliente
+INNER JOIN factura fact2 ON cl2.num_cliente = fact2.num_cliente
+INNER JOIN venta v2 ON fact2.num_factura = v2.num_factura
+INNER JOIN producto pro2 ON pro2.cod_producto = v2.cod_producto)
+WHERE pro.cod_producto != pro2.cod_producto;
+
+
+SELECT pro.cod_producto, pro.precio_producto, v1.id_venta, v1.cantidad_venta
+FROM producto pro
+INNER JOIN venta v1 ON pro.cod_producto = v1.cod_producto
+INNER JOIN venta v2 ON v2.cod_producto = v1.cod_producto
+WHERE v1.cantidad_venta > v2.cantidad_venta;
+
+
+SELECT cl1.primer_apellido_cliente AS "Apellido Cliente", cl1.primer_nombre_cliente AS "Nombre Cliente" 
+FROM (cliente cl1
+INNER JOIN factura fact ON cl1.num_cliente = fact.num_cliente
+INNER JOIN venta v ON fact.num_factura = v.num_factura
+INNER JOIN producto pro ON pro.cod_producto = v.cod_producto)
+INNER JOIN cliente cl2 ON cl1.num_cliente = cl2.num_cliente
+INNER JOIN factura fact2 ON cl2.num_cliente = fact2.num_cliente
+INNER JOIN venta v2 ON fact2.num_factura = v2.num_factura
+FULL JOIN producto pro2 ON pro2.cod_producto = v2.cod_producto)
+WHERE pro.precio_producto != pro2.precio_producto;
+
+
+SELECT v.* FROM producto pro
+INNER JOIN venta v ON pro.cod_producto = v.cod_producto
+INNER JOIN factura fact ON fact.num_factura = v.num_factura
+INNER JOIN cliente cl1 ON fact.num_cliente = cl1.num_cliente
+INNER JOIN cliente cl2 ON cl1.num_cliente != cl2.num_cliente
+INNER JOIN factura fact2 ON cl2.num_cliente = fact2.num_cliente
+INNER JOIN venta v2 ON fact2.num_factura = v2.num_factura
+INNER JOIN producto pro2 ON pro2.cod_producto = v2.cod_producto)
+WHERE pro.cod_producto = pro2.cod_producto AND v.cantidad_venta > v2.cantidad_venta;

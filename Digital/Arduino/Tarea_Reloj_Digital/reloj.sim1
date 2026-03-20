@@ -1,0 +1,51 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Mega-18" mainComp="false" Show_id="true" Show_Val="false" Pos="-824,-404" rotation="0" hflip="1" vflip="1" label="Mega-18" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega2560-63" Frequency="16 MHz" Program="build/arduino.avr.mega/Tarea_Reloj_Digital.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="KeyPad" CircId="KeyPad-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-1268,-484" rotation="0" hflip="1" vflip="1" label="KeyPad-20" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4" Cols="4" Key_Labels="123A456B789C.0-D" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-1008,-200" rotation="0" hflip="1" vflip="1" label="Seven Segment-24" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="4" Vertical_Pins="true" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="KeyPad-20-Pin0" endpinid="Mega-18-21" pointList="-1204,-476,-1088,-476,-1088,-356,-816,-356" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="KeyPad-20-Pin1" endpinid="Mega-18-20" pointList="-1204,-460,-1100,-460,-1100,-348,-816,-348" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="KeyPad-20-Pin2" endpinid="Mega-18-19" pointList="-1204,-444,-1108,-444,-1108,-340,-816,-340" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="KeyPad-20-Pin3" endpinid="Mega-18-18" pointList="-1204,-428,-1116,-428,-1116,-332,-816,-332" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="KeyPad-20-Pin4" endpinid="Mega-18-17" pointList="-1268,-412,-1268,-392,-1128,-392,-1128,-324,-816,-324" />
+
+<item itemtype="Connector" uid="Connector-81" startpinid="KeyPad-20-Pin5" endpinid="Mega-18-16" pointList="-1252,-412,-1252,-384,-1136,-384,-1136,-316,-816,-316" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="KeyPad-20-Pin6" endpinid="Mega-18-15" pointList="-1236,-412,-1236,-376,-1144,-376,-1144,-308,-816,-308" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="KeyPad-20-Pin7" endpinid="Mega-18-14" pointList="-1220,-412,-1220,-368,-1152,-368,-1152,-300,-816,-300" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="Seven Segment-24-pin_a" endpinid="Mega-18-0" pointList="-1024,-232,-1024,-284,-816,-284" />
+
+<item itemtype="Connector" uid="Connector-124" startpinid="Seven Segment-24-pin_b" endpinid="Mega-18-1" pointList="-1016,-232,-1016,-276,-816,-276" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="Seven Segment-24-pin_c" endpinid="Mega-18-2" pointList="-1008,-232,-1008,-268,-816,-268" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="Seven Segment-24-pin_d" endpinid="Mega-18-3" pointList="-1000,-232,-1000,-260,-816,-260" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="Seven Segment-24-pin_e" endpinid="Mega-18-4" pointList="-992,-232,-992,-252,-816,-252" />
+
+<item itemtype="Connector" uid="Connector-128" startpinid="Seven Segment-24-pin_f" endpinid="Mega-18-5" pointList="-1024,-168,-1024,-156,-884,-156,-884,-244,-816,-244" />
+
+<item itemtype="Connector" uid="Connector-129" startpinid="Seven Segment-24-pin_g" endpinid="Mega-18-6" pointList="-1016,-168,-1016,-148,-876,-148,-876,-236,-816,-236" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="Seven Segment-24-pin_dot" endpinid="Mega-18-7" pointList="-1008,-168,-1008,-140,-868,-140,-868,-228,-816,-228" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Seven Segment-24-pin_commona" endpinid="Mega-18-8" pointList="-1000,-168,-1000,-132,-860,-132,-860,-212,-816,-212" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Seven Segment-24-pin_commonb" endpinid="Mega-18-9" pointList="-968,-168,-968,-124,-852,-124,-852,-204,-816,-204" />
+
+<item itemtype="Connector" uid="Connector-133" startpinid="Seven Segment-24-pin_commonc" endpinid="Mega-18-10" pointList="-936,-168,-936,-116,-844,-116,-844,-196,-816,-196" />
+
+<item itemtype="Connector" uid="Connector-134" startpinid="Seven Segment-24-pin_commond" endpinid="Mega-18-11" pointList="-904,-168,-904,-108,-836,-108,-836,-188,-816,-188" />
+
+</circuit>

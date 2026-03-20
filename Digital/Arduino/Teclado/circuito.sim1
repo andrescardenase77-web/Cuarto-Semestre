@@ -1,0 +1,67 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="KeyPad" CircId="KeyPad-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-64,-192" rotation="0" hflip="1" vflip="1" label="KeyPad-1" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4" Cols="4" Key_Labels="123A456B789C*0#D" />
+
+<item itemtype="Subcircuit" CircId="Mega-2" mainComp="false" Show_id="true" Show_Val="false" Pos="176,-232" rotation="0" hflip="1" vflip="1" label="Mega-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega2560-63" Frequency="16 MHz" Program="build/arduino.avr.mega/Teclado.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="LedBar" CircId="LedBar-3" mainComp="false" Show_id="false" Show_Val="false" Pos="84,80" rotation="-360" hflip="-1" vflip="1" label="LedBar-3" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" Color="Yellow" Size="8 _Leds" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-16,144" rotation="0" hflip="1" vflip="1" label="Ground-4" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-104,104" rotation="0" hflip="1" vflip="1" label="Seven Segment-5" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="1" Vertical_Pins="true" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-32,80" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Seven Segment-5-pin_commona" endpinid="Ground-4-Gnd" pointList="-96,136,-16,136,-16,128" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="KeyPad-1-Pin4" endpinid="Mega-2-17" pointList="-64,-120,-64,-60,44,-60,44,-152,184,-152" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="KeyPad-1-Pin5" endpinid="Mega-2-16" pointList="-48,-120,-48,-52,52,-52,52,-144,184,-144" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="KeyPad-1-Pin6" endpinid="Mega-2-15" pointList="-32,-120,-32,-44,60,-44,60,-136,184,-136" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="KeyPad-1-Pin7" endpinid="Mega-2-14" pointList="-16,-120,-16,-36,68,-36,68,-128,184,-128" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Seven Segment-5-pin_a" endpinid="Mega-2-0" pointList="-120,72,-120,-28,76,-28,76,-112,184,-112" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Seven Segment-5-pin_b" endpinid="Mega-2-1" pointList="-112,72,-112,-20,84,-20,84,-104,184,-104" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Seven Segment-5-pin_c" endpinid="Mega-2-2" pointList="-104,72,-104,-16,88,-16,88,-96,184,-96" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="Seven Segment-5-pin_d" endpinid="Mega-2-3" pointList="-96,72,-96,-8,92,-8,92,-88,184,-88" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="Seven Segment-5-pin_e" endpinid="Mega-2-4" pointList="-88,72,-88,0,100,0,100,-80,184,-80" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Seven Segment-5-pin_f" endpinid="Node-7-0" pointList="-120,136,-32,136,-32,80" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="Node-7-2" endpinid="Mega-2-5" pointList="-32,80,8,80,8,4,104,4,104,-72,184,-72" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="Node-7-1" endpinid="Mega-2-6" pointList="-32,80,-32,88,20,88,20,12,108,12,108,-64,184,-64" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="LedBar-3-led0-pinP" endpinid="Mega-2-8" pointList="100,56,100,-40,184,-40" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="LedBar-3-led1-pinP" endpinid="Mega-2-9" pointList="100,64,132,64,132,-32,184,-32" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="LedBar-3-led2-pinP" endpinid="Mega-2-10" pointList="100,72,140,72,140,-24,184,-24" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="LedBar-3-led3-pinP" endpinid="Mega-2-11" pointList="100,80,152,80,152,-16,184,-16" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="LedBar-3-led4-pinP" endpinid="Mega-2-12" pointList="100,88,160,88,160,-8,184,-8" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="LedBar-3-led5-pinP" endpinid="Mega-2-5V01" pointList="100,96,164,96,164,-208,184,-208" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="LedBar-3-led6-pinP" endpinid="Mega-2-24" pointList="100,104,152,104,152,-236,200,-236,200,-208" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="LedBar-3-led7-pinP" endpinid="Mega-2-26" pointList="100,112,136,112,136,-252,208,-252,208,-208" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="KeyPad-1-Pin0" endpinid="Mega-2-21" pointList="0,-184,184,-184" />
+
+<item itemtype="Connector" uid="Connector-74" startpinid="KeyPad-1-Pin1" endpinid="Mega-2-20" pointList="0,-168,12,-168,12,-176,184,-176" />
+
+<item itemtype="Connector" uid="Connector-75" startpinid="KeyPad-1-Pin2" endpinid="Mega-2-19" pointList="0,-152,16,-152,16,-168,184,-168" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="KeyPad-1-Pin3" endpinid="Mega-2-18" pointList="0,-136,24,-136,24,-160,184,-160" />
+
+</circuit>
